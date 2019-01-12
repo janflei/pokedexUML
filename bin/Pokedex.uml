@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_4iszwBQdEemZWf-PcAkycQ" name="Pokedex">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_4vggsBQdEemZWf-PcAkycQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Association" xmi:id="_v8BqIBQjEemZWf-PcAkycQ" name="caches" memberEnd="_v8MpQBQjEemZWf-PcAkycQ _v8PFgBQjEemZWf-PcAkycQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v8IX0BQjEemZWf-PcAkycQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v8Jl8BQjEemZWf-PcAkycQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_v8PFgBQjEemZWf-PcAkycQ" name="history" type="_9q11cBQhEemZWf-PcAkycQ" association="_v8BqIBQjEemZWf-PcAkycQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="__XCKIBQkEemZWf-PcAkycQ" name="Pokedex">
+    <packagedElement xmi:type="uml:Class" xmi:id="_Bpq_UBQeEemZWf-PcAkycQ" name="Pokemon">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cjgdoBQgEemZWf-PcAkycQ" name="name" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_f3v1kBQgEemZWf-PcAkycQ" name="moves" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BM7xQBQkEemZWf-PcAkycQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BNMP8BQkEemZWf-PcAkycQ" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nVL3gBQgEemZWf-PcAkycQ" name="abilities" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5jMYsBQjEemZWf-PcAkycQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5jmBUBQjEemZWf-PcAkycQ" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_tE6acBQgEemZWf-PcAkycQ" name="types" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EjfdYBQkEemZWf-PcAkycQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EjrDkBQkEemZWf-PcAkycQ" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1QhxABQgEemZWf-PcAkycQ" name="getName" concurrency="concurrent"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_VZdcUBQhEemZWf-PcAkycQ" name="setName">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_gEVjQBQkEemZWf-PcAkycQ" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_eISNoBQhEemZWf-PcAkycQ" name="getMoves"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_jF4wEBQhEemZWf-PcAkycQ" name="setMoves">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_kqG0gBQkEemZWf-PcAkycQ" name="moves">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_j9z2kBQhEemZWf-PcAkycQ" name="getAbilities"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_lxO8ABQhEemZWf-PcAkycQ" name="setAbilities">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_qrZBgBQkEemZWf-PcAkycQ" name="abilities">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_twMPQBQkEemZWf-PcAkycQ" name="getTypes"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_vN_C8BQkEemZWf-PcAkycQ" name="setTypes">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7BK9IBQkEemZWf-PcAkycQ" name="types">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9q11cBQhEemZWf-PcAkycQ" name="History">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_v8MpQBQjEemZWf-PcAkycQ" name="pokemon" type="_Bpq_UBQeEemZWf-PcAkycQ" association="_v8BqIBQjEemZWf-PcAkycQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v8N3YBQjEemZWf-PcAkycQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v8OecBQjEemZWf-PcAkycQ" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_OwShMBQnEemZWf-PcAkycQ" name="addPokemon">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_l2u4UBQnEemZWf-PcAkycQ" name="pokemon" type="_Bpq_UBQeEemZWf-PcAkycQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_RcqA0BQnEemZWf-PcAkycQ" name="containsPokemon">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_hbeN8BQnEemZWf-PcAkycQ" name="pokeName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HUNjcBQiEemZWf-PcAkycQ" name="GuiController"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_B7OFgBQiEemZWf-PcAkycQ" name="RestController">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hGtJwBQlEemZWf-PcAkycQ" name="restURL" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_e_DgwBQlEemZWf-PcAkycQ" name="getRestURL"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_vnM-wBQlEemZWf-PcAkycQ" name="setRestURL">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_zvfCwBQlEemZWf-PcAkycQ" name="restURL">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_02l0wBQlEemZWf-PcAkycQ" name="requestPokemon">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_8gRi8BQlEemZWf-PcAkycQ" name="pokeName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_AZEZcBQmEemZWf-PcAkycQ" name="parseResponse" visibility="private">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JlP1IBQmEemZWf-PcAkycQ" name="response">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__EgXEBQhEemZWf-PcAkycQ" name="PokedexController">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Gxe3kBQnEemZWf-PcAkycQ" name="history" type="_9q11cBQhEemZWf-PcAkycQ"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_V53BYBQmEemZWf-PcAkycQ" name="addToHistory" visibility="private">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_b3Gb4BQmEemZWf-PcAkycQ" name="pokemon" type="_Bpq_UBQeEemZWf-PcAkycQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ewXIABQmEemZWf-PcAkycQ" name="request">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_jkUmQBQmEemZWf-PcAkycQ" name="pokeName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_qXoGEBQmEemZWf-PcAkycQ" name="respond" visibility="private">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_37BZoBQmEemZWf-PcAkycQ" name="pokemon" type="_Bpq_UBQeEemZWf-PcAkycQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_66y9cBQmEemZWf-PcAkycQ" name="getHistory">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_B6hvsBQnEemZWf-PcAkycQ" name="pokeHistory" type="_9q11cBQhEemZWf-PcAkycQ"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
