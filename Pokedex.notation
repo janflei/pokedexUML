@@ -1,248 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_AmOlUBQeEemZWf-PcAkycQ" type="PapyrusUMLClassDiagram" name="Pokedex" measurementUnit="Pixel">
-  <children xmi:type="notation:Shape" xmi:id="__XHpsBQkEemZWf-PcAkycQ" type="Model_Shape">
-    <children xmi:type="notation:DecorationNode" xmi:id="__XI30BQkEemZWf-PcAkycQ" type="Model_NameLabel"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="__XI30RQkEemZWf-PcAkycQ" type="Model_PackagedElementCompartment">
-      <children xmi:type="notation:Shape" xmi:id="_BqQ1MBQeEemZWf-PcAkycQ" type="Class_Shape">
-        <children xmi:type="notation:DecorationNode" xmi:id="_BqyZoBQeEemZWf-PcAkycQ" type="Class_NameLabel"/>
-        <children xmi:type="notation:DecorationNode" xmi:id="_BqzAsBQeEemZWf-PcAkycQ" type="Class_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_BqznwBQeEemZWf-PcAkycQ" y="15"/>
+  <children xmi:type="notation:Shape" xmi:id="_ronfgBmaEemMD7Z-54k-Ug" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rooGkBmaEemMD7Z-54k-Ug" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_rootoBmaEemMD7Z-54k-Ug" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_SmLhUBmQEemmJ5q8jX4sWA" type="Package_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_SmLhUhmQEemmJ5q8jX4sWA" type="Package_NameLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_SmLhUxmQEemmJ5q8jX4sWA" type="Package_PackagedElementCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_HUSb8BQiEemZWf-PcAkycQ" type="Class_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_HUTDABQiEemZWf-PcAkycQ" type="Class_NameLabel"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_HUTDARQiEemZWf-PcAkycQ" type="Class_FloatingNameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_HUTqEBQiEemZWf-PcAkycQ" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_HUTqERQiEemZWf-PcAkycQ" type="Class_AttributeCompartment">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_HUTqEhQiEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_HUTqExQiEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_HUTqFBQiEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HUTqFRQiEemZWf-PcAkycQ"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_HUTqFhQiEemZWf-PcAkycQ" type="Class_OperationCompartment">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_HUTqFxQiEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_HUTqGBQiEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_HUTqGRQiEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HUTqGhQiEemZWf-PcAkycQ"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_HUURIBQiEemZWf-PcAkycQ" type="Class_NestedClassifierCompartment">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_HUURIRQiEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_HUURIhQiEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_HUURIxQiEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HUURJBQiEemZWf-PcAkycQ"/>
+            </children>
+            <element xmi:type="uml:Class" href="Pokedex.uml#_HUNjcBQiEemZWf-PcAkycQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HUSb8RQiEemZWf-PcAkycQ" x="34" y="12" width="181" height="161"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_SmLhVBmQEemmJ5q8jX4sWA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SmLhVRmQEemmJ5q8jX4sWA"/>
         </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_BrAcEBQeEemZWf-PcAkycQ" type="Class_AttributeCompartment">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YIYWIBQgEemZWf-PcAkycQ" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YIY9MBQgEemZWf-PcAkycQ" key="collapsed" value="true"/>
-          </eAnnotations>
-          <children xmi:type="notation:Shape" xmi:id="_ckIvwBQgEemZWf-PcAkycQ" type="Property_ClassAttributeLabel">
-            <element xmi:type="uml:Property" href="Pokedex.uml#_cjgdoBQgEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_ckIvwRQgEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_nVYr0BQgEemZWf-PcAkycQ" type="Property_ClassAttributeLabel">
-            <element xmi:type="uml:Property" href="Pokedex.uml#_nVL3gBQgEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_nVYr0RQgEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_f4dnQBQgEemZWf-PcAkycQ" type="Property_ClassAttributeLabel">
-            <element xmi:type="uml:Property" href="Pokedex.uml#_f3v1kBQgEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_f4eOUBQgEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_tFnlEBQgEemZWf-PcAkycQ" type="Property_ClassAttributeLabel">
-            <element xmi:type="uml:Property" href="Pokedex.uml#_tE6acBQgEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_tFnlERQgEemZWf-PcAkycQ"/>
-          </children>
-          <styles xmi:type="notation:TitleStyle" xmi:id="_BrAcERQeEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="_BrAcEhQeEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="_BrAcExQeEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BrAcFBQeEemZWf-PcAkycQ"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_BrBDIBQeEemZWf-PcAkycQ" type="Class_OperationCompartment">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZcFPIBQfEemZWf-PcAkycQ" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZcF2MBQfEemZWf-PcAkycQ" key="collapsed" value="true"/>
-          </eAnnotations>
-          <children xmi:type="notation:Shape" xmi:id="_1RfaUBQgEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_1QhxABQgEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_1RfaURQgEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_VaFucBQhEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_VZdcUBQhEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_VaFucRQhEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_eI__UBQhEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_eISNoBQhEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_eI__URQhEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_jGP8cBQhEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_jF4wEBQhEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_jGP8cRQhEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_j-E8UBQhEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_j9z2kBQhEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_j-E8URQhEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_lxeMkBQhEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_lxO8ABQhEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_lxeMkRQhEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_txRNUBQkEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_twMPQBQkEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_txRNURQkEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_vO7eIBQkEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_vN_C8BQkEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_vO7eIRQkEemZWf-PcAkycQ"/>
-          </children>
-          <styles xmi:type="notation:TitleStyle" xmi:id="_BrBDIRQeEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="_BrBDIhQeEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="_BrBDIxQeEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BrBDJBQeEemZWf-PcAkycQ"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_BrBDJRQeEemZWf-PcAkycQ" type="Class_NestedClassifierCompartment">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aCr8IBQfEemZWf-PcAkycQ" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aCsjMBQfEemZWf-PcAkycQ" key="collapsed" value="true"/>
-          </eAnnotations>
-          <styles xmi:type="notation:TitleStyle" xmi:id="_BrBDJhQeEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="_BrBDJxQeEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="_BrBDKBQeEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BrBDKRQeEemZWf-PcAkycQ"/>
-        </children>
-        <element xmi:type="uml:Class" href="Pokedex.uml#_Bpq_UBQeEemZWf-PcAkycQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BqRcQBQeEemZWf-PcAkycQ" x="-26" y="12" width="216" height="274"/>
+        <element xmi:type="uml:Package" href="Pokedex.uml#_Sl50gBmQEemmJ5q8jX4sWA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SmLhURmQEemmJ5q8jX4sWA" x="34" y="12" width="341" height="221"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_9q4RsBQhEemZWf-PcAkycQ" type="Class_Shape">
-        <children xmi:type="notation:DecorationNode" xmi:id="_9q44wBQhEemZWf-PcAkycQ" type="Class_NameLabel"/>
-        <children xmi:type="notation:DecorationNode" xmi:id="_9q44wRQhEemZWf-PcAkycQ" type="Class_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_9q44whQhEemZWf-PcAkycQ" y="15"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_9q5f0BQhEemZWf-PcAkycQ" type="Class_AttributeCompartment">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_9q5f0RQhEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="_9q5f0hQhEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="_9q5f0xQhEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9q5f1BQhEemZWf-PcAkycQ"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_9q5f1RQhEemZWf-PcAkycQ" type="Class_OperationCompartment">
-          <children xmi:type="notation:Shape" xmi:id="_Owjm8BQnEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_OwShMBQnEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_Owjm8RQnEemZWf-PcAkycQ"/>
+      <children xmi:type="notation:Shape" xmi:id="_cRhlQBmQEemmJ5q8jX4sWA" type="Package_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cRhlQhmQEemmJ5q8jX4sWA" type="Package_NameLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_cRhlQxmQEemmJ5q8jX4sWA" type="Package_PackagedElementCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_B7QhwBQiEemZWf-PcAkycQ" type="Class_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_B7RI0BQiEemZWf-PcAkycQ" type="Class_NameLabel"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_B7Rv4BQiEemZWf-PcAkycQ" type="Class_FloatingNameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_B7Rv4RQiEemZWf-PcAkycQ" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_B7Rv4hQiEemZWf-PcAkycQ" type="Class_AttributeCompartment">
+              <children xmi:type="notation:Shape" xmi:id="_hHKcwBQlEemZWf-PcAkycQ" type="Property_ClassAttributeLabel">
+                <element xmi:type="uml:Property" href="Pokedex.uml#_hGtJwBQlEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_hHKcwRQlEemZWf-PcAkycQ"/>
+              </children>
+              <styles xmi:type="notation:TitleStyle" xmi:id="_B7Rv4xQiEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_B7Rv5BQiEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_B7Rv5RQiEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B7Rv5hQiEemZWf-PcAkycQ"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_B7Rv5xQiEemZWf-PcAkycQ" type="Class_OperationCompartment">
+              <children xmi:type="notation:Shape" xmi:id="_e_sZ8BQlEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_e_DgwBQlEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_e_sZ8RQlEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_vn138BQlEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_vnM-wBQlEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_vn138RQlEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_03IAQBQlEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_02l0wBQlEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_03IAQRQlEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_AZvH0BQmEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_AZEZcBQmEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_AZvH0RQmEemZWf-PcAkycQ"/>
+              </children>
+              <styles xmi:type="notation:TitleStyle" xmi:id="_B7Rv6BQiEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_B7Rv6RQiEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_B7Rv6hQiEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B7Rv6xQiEemZWf-PcAkycQ"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_B7Rv7BQiEemZWf-PcAkycQ" type="Class_NestedClassifierCompartment">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_B7Rv7RQiEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_B7Rv7hQiEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_B7Rv7xQiEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B7Rv8BQiEemZWf-PcAkycQ"/>
+            </children>
+            <element xmi:type="uml:Class" href="Pokedex.uml#_B7OFgBQiEemZWf-PcAkycQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B7QhwRQiEemZWf-PcAkycQ" x="114" y="312" width="181" height="161"/>
           </children>
-          <children xmi:type="notation:Shape" xmi:id="_Rdd5IBQnEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_RcqA0BQnEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_Rdd5IRQnEemZWf-PcAkycQ"/>
+          <children xmi:type="notation:Shape" xmi:id="__EkBcBQhEemZWf-PcAkycQ" type="Class_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="__EkogBQhEemZWf-PcAkycQ" type="Class_NameLabel"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="__ElPkBQhEemZWf-PcAkycQ" type="Class_FloatingNameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="__ElPkRQhEemZWf-PcAkycQ" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="__ElPkhQhEemZWf-PcAkycQ" type="Class_AttributeCompartment">
+              <children xmi:type="notation:Shape" xmi:id="_Gylq0BQnEemZWf-PcAkycQ" type="Property_ClassAttributeLabel">
+                <element xmi:type="uml:Property" href="Pokedex.uml#_Gxe3kBQnEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Gylq0RQnEemZWf-PcAkycQ"/>
+              </children>
+              <styles xmi:type="notation:TitleStyle" xmi:id="__ElPkxQhEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="__ElPlBQhEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="__ElPlRQhEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__ElPlhQhEemZWf-PcAkycQ"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="__El2oBQhEemZWf-PcAkycQ" type="Class_OperationCompartment">
+              <children xmi:type="notation:Shape" xmi:id="_V6yOcBQmEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_V53BYBQmEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_V6yOcRQmEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_exDrkBQmEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_ewXIABQmEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_exDrkRQmEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_qYBHoBQmEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_qXoGEBQmEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_qYBHoRQmEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_67e58BQmEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_66y9cBQmEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_67e58RQmEemZWf-PcAkycQ"/>
+              </children>
+              <styles xmi:type="notation:TitleStyle" xmi:id="__El2oRQhEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="__El2ohQhEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="__El2oxQhEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__El2pBQhEemZWf-PcAkycQ"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="__El2pRQhEemZWf-PcAkycQ" type="Class_NestedClassifierCompartment">
+              <styles xmi:type="notation:TitleStyle" xmi:id="__El2phQhEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="__El2pxQhEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="__El2qBQhEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__El2qRQhEemZWf-PcAkycQ"/>
+            </children>
+            <element xmi:type="uml:Class" href="Pokedex.uml#__EgXEBQhEemZWf-PcAkycQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__EkBcRQhEemZWf-PcAkycQ" x="114" y="12" width="181" height="161"/>
           </children>
-          <styles xmi:type="notation:TitleStyle" xmi:id="_9q5f1hQhEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="_9q5f1xQhEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="_9q5f2BQhEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9q5f2RQhEemZWf-PcAkycQ"/>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_cRhlRBmQEemmJ5q8jX4sWA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cRhlRRmQEemmJ5q8jX4sWA"/>
         </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_9q5f2hQhEemZWf-PcAkycQ" type="Class_NestedClassifierCompartment">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_9q5f2xQhEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="_9q5f3BQhEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="_9q5f3RQhEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9q5f3hQhEemZWf-PcAkycQ"/>
-        </children>
-        <element xmi:type="uml:Class" href="Pokedex.uml#_9q11cBQhEemZWf-PcAkycQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9q4RsRQhEemZWf-PcAkycQ" x="334" y="252" width="181" height="141"/>
+        <element xmi:type="uml:Package" href="Pokedex.uml#_cRTi0BmQEemmJ5q8jX4sWA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cRhlQRmQEemmJ5q8jX4sWA" x="644" y="12" width="421" height="581"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_HUSb8BQiEemZWf-PcAkycQ" type="Class_Shape">
-        <children xmi:type="notation:DecorationNode" xmi:id="_HUTDABQiEemZWf-PcAkycQ" type="Class_NameLabel"/>
-        <children xmi:type="notation:DecorationNode" xmi:id="_HUTDARQiEemZWf-PcAkycQ" type="Class_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_HUTqEBQiEemZWf-PcAkycQ" y="15"/>
+      <children xmi:type="notation:Shape" xmi:id="_nD-bMBmQEemmJ5q8jX4sWA" type="Package_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_nD-bMhmQEemmJ5q8jX4sWA" type="Package_NameLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_nD-bMxmQEemmJ5q8jX4sWA" type="Package_PackagedElementCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_9q4RsBQhEemZWf-PcAkycQ" type="Class_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_9q44wBQhEemZWf-PcAkycQ" type="Class_NameLabel"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_9q44wRQhEemZWf-PcAkycQ" type="Class_FloatingNameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_9q44whQhEemZWf-PcAkycQ" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_9q5f0BQhEemZWf-PcAkycQ" type="Class_AttributeCompartment">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_9q5f0RQhEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_9q5f0hQhEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_9q5f0xQhEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9q5f1BQhEemZWf-PcAkycQ"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_9q5f1RQhEemZWf-PcAkycQ" type="Class_OperationCompartment">
+              <children xmi:type="notation:Shape" xmi:id="_Owjm8BQnEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_OwShMBQnEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Owjm8RQnEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_Rdd5IBQnEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_RcqA0BQnEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Rdd5IRQnEemZWf-PcAkycQ"/>
+              </children>
+              <styles xmi:type="notation:TitleStyle" xmi:id="_9q5f1hQhEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_9q5f1xQhEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_9q5f2BQhEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9q5f2RQhEemZWf-PcAkycQ"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_9q5f2hQhEemZWf-PcAkycQ" type="Class_NestedClassifierCompartment">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_9q5f2xQhEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_9q5f3BQhEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_9q5f3RQhEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9q5f3hQhEemZWf-PcAkycQ"/>
+            </children>
+            <element xmi:type="uml:Class" href="Pokedex.uml#_9q11cBQhEemZWf-PcAkycQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9q4RsRQhEemZWf-PcAkycQ" x="274" y="132" width="181" height="141"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_BqQ1MBQeEemZWf-PcAkycQ" type="Class_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_BqyZoBQeEemZWf-PcAkycQ" type="Class_NameLabel"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_BqzAsBQeEemZWf-PcAkycQ" type="Class_FloatingNameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_BqznwBQeEemZWf-PcAkycQ" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_BrAcEBQeEemZWf-PcAkycQ" type="Class_AttributeCompartment">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YIYWIBQgEemZWf-PcAkycQ" source="PapyrusCSSForceValue">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YIY9MBQgEemZWf-PcAkycQ" key="collapsed" value="true"/>
+              </eAnnotations>
+              <children xmi:type="notation:Shape" xmi:id="_ckIvwBQgEemZWf-PcAkycQ" type="Property_ClassAttributeLabel">
+                <element xmi:type="uml:Property" href="Pokedex.uml#_cjgdoBQgEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ckIvwRQgEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_nVYr0BQgEemZWf-PcAkycQ" type="Property_ClassAttributeLabel">
+                <element xmi:type="uml:Property" href="Pokedex.uml#_nVL3gBQgEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_nVYr0RQgEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_f4dnQBQgEemZWf-PcAkycQ" type="Property_ClassAttributeLabel">
+                <element xmi:type="uml:Property" href="Pokedex.uml#_f3v1kBQgEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_f4eOUBQgEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_tFnlEBQgEemZWf-PcAkycQ" type="Property_ClassAttributeLabel">
+                <element xmi:type="uml:Property" href="Pokedex.uml#_tE6acBQgEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_tFnlERQgEemZWf-PcAkycQ"/>
+              </children>
+              <styles xmi:type="notation:TitleStyle" xmi:id="_BrAcERQeEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_BrAcEhQeEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_BrAcExQeEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BrAcFBQeEemZWf-PcAkycQ"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_BrBDIBQeEemZWf-PcAkycQ" type="Class_OperationCompartment">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZcFPIBQfEemZWf-PcAkycQ" source="PapyrusCSSForceValue">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZcF2MBQfEemZWf-PcAkycQ" key="collapsed" value="true"/>
+              </eAnnotations>
+              <children xmi:type="notation:Shape" xmi:id="_1RfaUBQgEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_1QhxABQgEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_1RfaURQgEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_VaFucBQhEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_VZdcUBQhEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_VaFucRQhEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_eI__UBQhEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_eISNoBQhEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_eI__URQhEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_jGP8cBQhEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_jF4wEBQhEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_jGP8cRQhEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_j-E8UBQhEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_j9z2kBQhEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_j-E8URQhEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_lxeMkBQhEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_lxO8ABQhEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_lxeMkRQhEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_txRNUBQkEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_twMPQBQkEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_txRNURQkEemZWf-PcAkycQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_vO7eIBQkEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
+                <element xmi:type="uml:Operation" href="Pokedex.uml#_vN_C8BQkEemZWf-PcAkycQ"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_vO7eIRQkEemZWf-PcAkycQ"/>
+              </children>
+              <styles xmi:type="notation:TitleStyle" xmi:id="_BrBDIRQeEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_BrBDIhQeEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_BrBDIxQeEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BrBDJBQeEemZWf-PcAkycQ"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_BrBDJRQeEemZWf-PcAkycQ" type="Class_NestedClassifierCompartment">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aCr8IBQfEemZWf-PcAkycQ" source="PapyrusCSSForceValue">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aCsjMBQfEemZWf-PcAkycQ" key="collapsed" value="true"/>
+              </eAnnotations>
+              <styles xmi:type="notation:TitleStyle" xmi:id="_BrBDJhQeEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_BrBDJxQeEemZWf-PcAkycQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_BrBDKBQeEemZWf-PcAkycQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BrBDKRQeEemZWf-PcAkycQ"/>
+            </children>
+            <element xmi:type="uml:Class" href="Pokedex.uml#_Bpq_UBQeEemZWf-PcAkycQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BqRcQBQeEemZWf-PcAkycQ" x="14" y="12" width="216" height="274"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_nD-bNBmQEemmJ5q8jX4sWA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nD-bNRmQEemmJ5q8jX4sWA"/>
         </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_HUTqERQiEemZWf-PcAkycQ" type="Class_AttributeCompartment">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_HUTqEhQiEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="_HUTqExQiEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="_HUTqFBQiEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HUTqFRQiEemZWf-PcAkycQ"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_HUTqFhQiEemZWf-PcAkycQ" type="Class_OperationCompartment">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_HUTqFxQiEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="_HUTqGBQiEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="_HUTqGRQiEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HUTqGhQiEemZWf-PcAkycQ"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_HUURIBQiEemZWf-PcAkycQ" type="Class_NestedClassifierCompartment">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_HUURIRQiEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="_HUURIhQiEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="_HUURIxQiEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HUURJBQiEemZWf-PcAkycQ"/>
-        </children>
-        <element xmi:type="uml:Class" href="Pokedex.uml#_HUNjcBQiEemZWf-PcAkycQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HUSb8RQiEemZWf-PcAkycQ" x="214" y="12" width="181" height="161"/>
+        <element xmi:type="uml:Package" href="Pokedex.uml#_nDvKoBmQEemmJ5q8jX4sWA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nD-bMRmQEemmJ5q8jX4sWA" x="34" y="252" width="501" height="341"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_B7QhwBQiEemZWf-PcAkycQ" type="Class_Shape">
-        <children xmi:type="notation:DecorationNode" xmi:id="_B7RI0BQiEemZWf-PcAkycQ" type="Class_NameLabel"/>
-        <children xmi:type="notation:DecorationNode" xmi:id="_B7Rv4BQiEemZWf-PcAkycQ" type="Class_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_B7Rv4RQiEemZWf-PcAkycQ" y="15"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_B7Rv4hQiEemZWf-PcAkycQ" type="Class_AttributeCompartment">
-          <children xmi:type="notation:Shape" xmi:id="_hHKcwBQlEemZWf-PcAkycQ" type="Property_ClassAttributeLabel">
-            <element xmi:type="uml:Property" href="Pokedex.uml#_hGtJwBQlEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_hHKcwRQlEemZWf-PcAkycQ"/>
-          </children>
-          <styles xmi:type="notation:TitleStyle" xmi:id="_B7Rv4xQiEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="_B7Rv5BQiEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="_B7Rv5RQiEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B7Rv5hQiEemZWf-PcAkycQ"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_B7Rv5xQiEemZWf-PcAkycQ" type="Class_OperationCompartment">
-          <children xmi:type="notation:Shape" xmi:id="_e_sZ8BQlEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_e_DgwBQlEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_e_sZ8RQlEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_vn138BQlEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_vnM-wBQlEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_vn138RQlEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_03IAQBQlEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_02l0wBQlEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_03IAQRQlEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_AZvH0BQmEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_AZEZcBQmEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_AZvH0RQmEemZWf-PcAkycQ"/>
-          </children>
-          <styles xmi:type="notation:TitleStyle" xmi:id="_B7Rv6BQiEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="_B7Rv6RQiEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="_B7Rv6hQiEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B7Rv6xQiEemZWf-PcAkycQ"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="_B7Rv7BQiEemZWf-PcAkycQ" type="Class_NestedClassifierCompartment">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_B7Rv7RQiEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="_B7Rv7hQiEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="_B7Rv7xQiEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B7Rv8BQiEemZWf-PcAkycQ"/>
-        </children>
-        <element xmi:type="uml:Class" href="Pokedex.uml#_B7OFgBQiEemZWf-PcAkycQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B7QhwRQiEemZWf-PcAkycQ" x="634" y="12" width="181" height="161"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="__EkBcBQhEemZWf-PcAkycQ" type="Class_Shape">
-        <children xmi:type="notation:DecorationNode" xmi:id="__EkogBQhEemZWf-PcAkycQ" type="Class_NameLabel"/>
-        <children xmi:type="notation:DecorationNode" xmi:id="__ElPkBQhEemZWf-PcAkycQ" type="Class_FloatingNameLabel">
-          <layoutConstraint xmi:type="notation:Location" xmi:id="__ElPkRQhEemZWf-PcAkycQ" y="15"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="__ElPkhQhEemZWf-PcAkycQ" type="Class_AttributeCompartment">
-          <children xmi:type="notation:Shape" xmi:id="_Gylq0BQnEemZWf-PcAkycQ" type="Property_ClassAttributeLabel">
-            <element xmi:type="uml:Property" href="Pokedex.uml#_Gxe3kBQnEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_Gylq0RQnEemZWf-PcAkycQ"/>
-          </children>
-          <styles xmi:type="notation:TitleStyle" xmi:id="__ElPkxQhEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="__ElPlBQhEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="__ElPlRQhEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__ElPlhQhEemZWf-PcAkycQ"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="__El2oBQhEemZWf-PcAkycQ" type="Class_OperationCompartment">
-          <children xmi:type="notation:Shape" xmi:id="_V6yOcBQmEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_V53BYBQmEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_V6yOcRQmEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_exDrkBQmEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_ewXIABQmEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_exDrkRQmEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_qYBHoBQmEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_qXoGEBQmEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_qYBHoRQmEemZWf-PcAkycQ"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_67e58BQmEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-            <element xmi:type="uml:Operation" href="Pokedex.uml#_66y9cBQmEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_67e58RQmEemZWf-PcAkycQ"/>
-          </children>
-          <styles xmi:type="notation:TitleStyle" xmi:id="__El2oRQhEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="__El2ohQhEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="__El2oxQhEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__El2pBQhEemZWf-PcAkycQ"/>
-        </children>
-        <children xmi:type="notation:BasicCompartment" xmi:id="__El2pRQhEemZWf-PcAkycQ" type="Class_NestedClassifierCompartment">
-          <styles xmi:type="notation:TitleStyle" xmi:id="__El2phQhEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:SortingStyle" xmi:id="__El2pxQhEemZWf-PcAkycQ"/>
-          <styles xmi:type="notation:FilteringStyle" xmi:id="__El2qBQhEemZWf-PcAkycQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__El2qRQhEemZWf-PcAkycQ"/>
-        </children>
-        <element xmi:type="uml:Class" href="Pokedex.uml#__EgXEBQhEemZWf-PcAkycQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__EkBcRQhEemZWf-PcAkycQ" x="414" y="12" width="181" height="161"/>
-      </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="__XI30hQkEemZWf-PcAkycQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__XI30xQkEemZWf-PcAkycQ"/>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_rootoRmaEemMD7Z-54k-Ug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rootohmaEemMD7Z-54k-Ug"/>
     </children>
-    <element xmi:type="uml:Model" href="Pokedex.uml#__XCKIBQkEemZWf-PcAkycQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__XHpsRQkEemZWf-PcAkycQ" x="-20" width="841" height="441"/>
+    <element xmi:type="uml:Package" href="Pokedex.uml#_roj1IBmaEemMD7Z-54k-Ug"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ronfgRmaEemMD7Z-54k-Ug" x="40" y="40" width="1100" height="680"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_AmPMYBQeEemZWf-PcAkycQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_AmPMYRQeEemZWf-PcAkycQ"/>
@@ -257,15 +284,15 @@
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_v9K5oBQjEemZWf-PcAkycQ" type="Association_NameLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_JvMtQBQkEemZWf-PcAkycQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_v9K5oRQjEemZWf-PcAkycQ" x="-1" y="18"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v9K5oRQjEemZWf-PcAkycQ" x="21" y="18"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_v9K5ohQjEemZWf-PcAkycQ" type="Association_TargetRoleLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_JvuRsBQkEemZWf-PcAkycQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_v9K5oxQjEemZWf-PcAkycQ" x="14" y="-19"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v9K5oxQjEemZWf-PcAkycQ" x="17" y="-39"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_v9K5pBQjEemZWf-PcAkycQ" type="Association_SourceRoleLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_JwOoABQkEemZWf-PcAkycQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_v9K5pRQjEemZWf-PcAkycQ" x="-13" y="18"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v9K5pRQjEemZWf-PcAkycQ" x="-32" y="17"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_v9LgsBQjEemZWf-PcAkycQ" type="Association_SourceMultiplicityLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_JwsiEBQkEemZWf-PcAkycQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
@@ -277,8 +304,101 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_v9IdYRQjEemZWf-PcAkycQ"/>
     <element xmi:type="uml:Association" href="Pokedex.uml#_v8BqIBQjEemZWf-PcAkycQ"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v9IdYhQjEemZWf-PcAkycQ" points="[360, 280, -643984, -643984]$[176, 140, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wAqSgBQjEemZWf-PcAkycQ" id="(0.0,0.14184397163120568)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wAqSgRQjEemZWf-PcAkycQ" id="(1.0,0.948905109489051)"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v9IdYhQjEemZWf-PcAkycQ" points="[400, 480, -643984, -643984]$[400, 380, -643984, -643984]$[316, 380, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wAqSgBQjEemZWf-PcAkycQ" id="(0.22099447513812154,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wAqSgRQjEemZWf-PcAkycQ" id="(1.0,0.072992700729927)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_fLZx4BmPEemmJ5q8jX4sWA" type="Association_Edge" source="__EkBcBQhEemZWf-PcAkycQ" target="_9q4RsBQhEemZWf-PcAkycQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fLcOIBmPEemmJ5q8jX4sWA" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_yl-UMBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fLc1MBmPEemmJ5q8jX4sWA" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fLc1MRmPEemmJ5q8jX4sWA" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ymTEUBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fLc1MhmPEemmJ5q8jX4sWA" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fLc1MxmPEemmJ5q8jX4sWA" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ymre0BmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fLc1NBmPEemmJ5q8jX4sWA" x="60" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fLc1NRmPEemmJ5q8jX4sWA" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ym9ysBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fLc1NhmPEemmJ5q8jX4sWA" x="-12" y="-29"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fLc1NxmPEemmJ5q8jX4sWA" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ynQtoBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fLc1OBmPEemmJ5q8jX4sWA" x="12" y="13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fLc1ORmPEemmJ5q8jX4sWA" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ynjBgBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fLc1OhmPEemmJ5q8jX4sWA" x="-13" y="15"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fLZx4RmPEemmJ5q8jX4sWA"/>
+    <element xmi:type="uml:Association" href="Pokedex.uml#_fKhBEBmPEemmJ5q8jX4sWA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fLZx4hmPEemmJ5q8jX4sWA" points="[809, 240, -643984, -643984]$[520, 240, -643984, -643984]$[520, 480, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fMdh0BmPEemmJ5q8jX4sWA" id="(0.0,0.7453416149068323)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fMeI4BmPEemmJ5q8jX4sWA" id="(0.8839779005524862,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_w5N3cBmPEemmJ5q8jX4sWA" type="Association_Edge" source="__EkBcBQhEemZWf-PcAkycQ" target="_B7QhwBQiEemZWf-PcAkycQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_w5N3cxmPEemmJ5q8jX4sWA" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_yoAUgBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_w5N3dBmPEemmJ5q8jX4sWA" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_w5N3dRmPEemmJ5q8jX4sWA" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_yoWSwBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_w5N3dhmPEemmJ5q8jX4sWA" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_w5N3dxmPEemmJ5q8jX4sWA" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_yoqb0BmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_w5N3eBmPEemmJ5q8jX4sWA" x="13" y="-62"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_w5N3eRmPEemmJ5q8jX4sWA" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_yo8IoBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_w5N3ehmPEemmJ5q8jX4sWA" x="-23" y="-51"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_w5OegBmPEemmJ5q8jX4sWA" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ypN1cBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_w5OegRmPEemmJ5q8jX4sWA" x="6" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_w5OeghmPEemmJ5q8jX4sWA" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ypeUIBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_w5OegxmPEemmJ5q8jX4sWA" x="-6" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_w5N3cRmPEemmJ5q8jX4sWA"/>
+    <element xmi:type="uml:Association" href="Pokedex.uml#_w4qd0BmPEemmJ5q8jX4sWA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_w5N3chmPEemmJ5q8jX4sWA" points="[957, 65, -643984, -643984]$[996, 65, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_w6PyMBmPEemmJ5q8jX4sWA" id="(0.5524861878453039,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_w6PyMRmPEemmJ5q8jX4sWA" id="(0.5524861878453039,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_5DYcgBmPEemmJ5q8jX4sWA" type="Association_Edge" source="__EkBcBQhEemZWf-PcAkycQ" target="_HUSb8BQiEemZWf-PcAkycQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5DYcgxmPEemmJ5q8jX4sWA" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_9zNBoBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5DYchBmPEemmJ5q8jX4sWA" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5DYchRmPEemmJ5q8jX4sWA" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_9zZ18BmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5DYchhmPEemmJ5q8jX4sWA" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5DYchxmPEemmJ5q8jX4sWA" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_9zofcBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5DYciBmPEemmJ5q8jX4sWA" x="58" y="-15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5DYciRmPEemmJ5q8jX4sWA" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_9z4XEBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5DYcihmPEemmJ5q8jX4sWA" x="-56" y="17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5DYcixmPEemmJ5q8jX4sWA" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_90HAkBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5DZDkBmPEemmJ5q8jX4sWA" x="15" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5DZDkRmPEemmJ5q8jX4sWA" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_90VqEBmPEemmJ5q8jX4sWA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5DZDkhmPEemmJ5q8jX4sWA" x="-15" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5DYcgRmPEemmJ5q8jX4sWA"/>
+    <element xmi:type="uml:Association" href="Pokedex.uml#_5DGvsBmPEemmJ5q8jX4sWA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5DYcghmPEemmJ5q8jX4sWA" points="[460, 80, -643984, -643984]$[361, 80, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5ECj0BmPEemmJ5q8jX4sWA" id="(0.0,0.2484472049689441)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5ECj0RmPEemmJ5q8jX4sWA" id="(1.0,0.2484472049689441)"/>
   </edges>
 </notation:Diagram>
