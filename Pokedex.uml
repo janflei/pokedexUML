@@ -78,7 +78,7 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_9q11cBQhEemZWf-PcAkycQ" name="History">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_v8MpQBQjEemZWf-PcAkycQ" name="pokemon" type="_Bpq_UBQeEemZWf-PcAkycQ" association="_v8BqIBQjEemZWf-PcAkycQ">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v8N3YBQjEemZWf-PcAkycQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v8OecBQjEemZWf-PcAkycQ" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v8OecBQjEemZWf-PcAkycQ" value="*"/>
           </ownedAttribute>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_OwShMBQnEemZWf-PcAkycQ" name="addPokemon">
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_l2u4UBQnEemZWf-PcAkycQ" name="pokemon" type="_Bpq_UBQeEemZWf-PcAkycQ"/>
