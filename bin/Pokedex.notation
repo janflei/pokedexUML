@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_AmOlUBQeEemZWf-PcAkycQ" type="PapyrusUMLClassDiagram" name="Pokedex" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_AmOlUBQeEemZWf-PcAkycQ" type="PapyrusUMLClassDiagram" name="Pokedex" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_ronfgBmaEemMD7Z-54k-Ug" type="Package_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_rooGkBmaEemMD7Z-54k-Ug" type="Package_NameLabel"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_rootoBmaEemMD7Z-54k-Ug" type="Package_PackagedElementCompartment">
@@ -30,7 +30,15 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HUURJBQiEemZWf-PcAkycQ"/>
             </children>
             <element xmi:type="uml:Class" href="Pokedex.uml#_HUNjcBQiEemZWf-PcAkycQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HUSb8RQiEemZWf-PcAkycQ" x="34" y="12" width="181" height="161"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HUSb8RQiEemZWf-PcAkycQ" x="54" y="12" width="181" height="161"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_cDtwxhmmEemRSPkd1adZHQ" type="StereotypeComment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_cDtwxxmmEemRSPkd1adZHQ"/>
+            <styles xmi:type="notation:EObjectValueStyle" xmi:id="_cDuX0BmmEemRSPkd1adZHQ" name="BASE_ELEMENT">
+              <eObjectValue xmi:type="uml:Class" href="Pokedex.uml#_HUNjcBQiEemZWf-PcAkycQ"/>
+            </styles>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cDtwyBmmEemRSPkd1adZHQ" x="254" y="12"/>
           </children>
           <styles xmi:type="notation:TitleStyle" xmi:id="_SmLhVBmQEemmJ5q8jX4sWA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SmLhVRmQEemmJ5q8jX4sWA"/>
@@ -93,10 +101,6 @@
               <layoutConstraint xmi:type="notation:Location" xmi:id="__ElPkRQhEemZWf-PcAkycQ" y="15"/>
             </children>
             <children xmi:type="notation:BasicCompartment" xmi:id="__ElPkhQhEemZWf-PcAkycQ" type="Class_AttributeCompartment">
-              <children xmi:type="notation:Shape" xmi:id="_Gylq0BQnEemZWf-PcAkycQ" type="Property_ClassAttributeLabel">
-                <element xmi:type="uml:Property" href="Pokedex.uml#_Gxe3kBQnEemZWf-PcAkycQ"/>
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_Gylq0RQnEemZWf-PcAkycQ"/>
-              </children>
               <styles xmi:type="notation:TitleStyle" xmi:id="__ElPkxQhEemZWf-PcAkycQ"/>
               <styles xmi:type="notation:SortingStyle" xmi:id="__ElPlBQhEemZWf-PcAkycQ"/>
               <styles xmi:type="notation:FilteringStyle" xmi:id="__ElPlRQhEemZWf-PcAkycQ"/>
@@ -132,6 +136,22 @@
             </children>
             <element xmi:type="uml:Class" href="Pokedex.uml#__EgXEBQhEemZWf-PcAkycQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="__EkBcRQhEemZWf-PcAkycQ" x="114" y="12" width="181" height="161"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_cDxbIxmmEemRSPkd1adZHQ" type="StereotypeComment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_cDxbJBmmEemRSPkd1adZHQ"/>
+            <styles xmi:type="notation:EObjectValueStyle" xmi:id="_cDxbJhmmEemRSPkd1adZHQ" name="BASE_ELEMENT">
+              <eObjectValue xmi:type="uml:Class" href="Pokedex.uml#_B7OFgBQiEemZWf-PcAkycQ"/>
+            </styles>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cDxbJRmmEemRSPkd1adZHQ" x="314" y="312"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_cD1skBmmEemRSPkd1adZHQ" type="StereotypeComment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_cD1skRmmEemRSPkd1adZHQ"/>
+            <styles xmi:type="notation:EObjectValueStyle" xmi:id="_cD1skxmmEemRSPkd1adZHQ" name="BASE_ELEMENT">
+              <eObjectValue xmi:type="uml:Class" href="Pokedex.uml#__EgXEBQhEemZWf-PcAkycQ"/>
+            </styles>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cD1skhmmEemRSPkd1adZHQ" x="314" y="12"/>
           </children>
           <styles xmi:type="notation:TitleStyle" xmi:id="_cRhlRBmQEemmJ5q8jX4sWA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cRhlRRmQEemmJ5q8jX4sWA"/>
@@ -258,6 +278,22 @@
             </children>
             <element xmi:type="uml:Class" href="Pokedex.uml#_Bpq_UBQeEemZWf-PcAkycQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BqRcQBQeEemZWf-PcAkycQ" x="14" y="12" width="216" height="274"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_cD9oYBmmEemRSPkd1adZHQ" type="StereotypeComment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_cD9oYRmmEemRSPkd1adZHQ"/>
+            <styles xmi:type="notation:EObjectValueStyle" xmi:id="_cD9oYxmmEemRSPkd1adZHQ" name="BASE_ELEMENT">
+              <eObjectValue xmi:type="uml:Class" href="Pokedex.uml#_9q11cBQhEemZWf-PcAkycQ"/>
+            </styles>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cD9oYhmmEemRSPkd1adZHQ" x="474" y="132"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_cEB50xmmEemRSPkd1adZHQ" type="StereotypeComment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_cEB51BmmEemRSPkd1adZHQ"/>
+            <styles xmi:type="notation:EObjectValueStyle" xmi:id="_cECg4BmmEemRSPkd1adZHQ" name="BASE_ELEMENT">
+              <eObjectValue xmi:type="uml:Class" href="Pokedex.uml#_Bpq_UBQeEemZWf-PcAkycQ"/>
+            </styles>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cEB51RmmEemRSPkd1adZHQ" x="214" y="12"/>
           </children>
           <styles xmi:type="notation:TitleStyle" xmi:id="_nD-bNBmQEemmJ5q8jX4sWA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nD-bNRmQEemmJ5q8jX4sWA"/>
@@ -400,5 +436,55 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5DYcghmPEemmJ5q8jX4sWA" points="[460, 80, -643984, -643984]$[361, 80, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5ECj0BmPEemmJ5q8jX4sWA" id="(0.0,0.2484472049689441)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5ECj0RmPEemmJ5q8jX4sWA" id="(1.0,0.2484472049689441)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_cDuX0RmmEemRSPkd1adZHQ" type="StereotypeCommentLink" source="_HUSb8BQiEemZWf-PcAkycQ" target="_cDtwxhmmEemRSPkd1adZHQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_cDuX0hmmEemRSPkd1adZHQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_cDuX1hmmEemRSPkd1adZHQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="Pokedex.uml#_HUNjcBQiEemZWf-PcAkycQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cDuX0xmmEemRSPkd1adZHQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cDuX1BmmEemRSPkd1adZHQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cDuX1RmmEemRSPkd1adZHQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_cDxbJxmmEemRSPkd1adZHQ" type="StereotypeCommentLink" source="_B7QhwBQiEemZWf-PcAkycQ" target="_cDxbIxmmEemRSPkd1adZHQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_cDxbKBmmEemRSPkd1adZHQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_cDyCMBmmEemRSPkd1adZHQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="Pokedex.uml#_B7OFgBQiEemZWf-PcAkycQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cDxbKRmmEemRSPkd1adZHQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cDxbKhmmEemRSPkd1adZHQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cDxbKxmmEemRSPkd1adZHQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_cD1slBmmEemRSPkd1adZHQ" type="StereotypeCommentLink" source="__EkBcBQhEemZWf-PcAkycQ" target="_cD1skBmmEemRSPkd1adZHQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_cD1slRmmEemRSPkd1adZHQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_cD1smRmmEemRSPkd1adZHQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="Pokedex.uml#__EgXEBQhEemZWf-PcAkycQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cD1slhmmEemRSPkd1adZHQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cD1slxmmEemRSPkd1adZHQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cD1smBmmEemRSPkd1adZHQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_cD9oZBmmEemRSPkd1adZHQ" type="StereotypeCommentLink" source="_9q4RsBQhEemZWf-PcAkycQ" target="_cD9oYBmmEemRSPkd1adZHQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_cD9oZRmmEemRSPkd1adZHQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_cD9oaRmmEemRSPkd1adZHQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="Pokedex.uml#_9q11cBQhEemZWf-PcAkycQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cD9oZhmmEemRSPkd1adZHQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cD9oZxmmEemRSPkd1adZHQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cD9oaBmmEemRSPkd1adZHQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_cECg4RmmEemRSPkd1adZHQ" type="StereotypeCommentLink" source="_BqQ1MBQeEemZWf-PcAkycQ" target="_cEB50xmmEemRSPkd1adZHQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_cECg4hmmEemRSPkd1adZHQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_cECg5hmmEemRSPkd1adZHQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="Pokedex.uml#_Bpq_UBQeEemZWf-PcAkycQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cECg4xmmEemRSPkd1adZHQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cECg5BmmEemRSPkd1adZHQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cECg5RmmEemRSPkd1adZHQ"/>
   </edges>
 </notation:Diagram>
