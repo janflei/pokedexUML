@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:model="http:///schemas/model/_w5QEsB8WEemSTsXpfqYNLg/4" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/model/_w5QEsB8WEemSTsXpfqYNLg/4 model.profile.uml#_w5fVQB8WEemSTsXpfqYNLg">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:model="http:///schemas/model/_GTVLMB8YEemSTsXpfqYNLg/5" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/model/_GTVLMB8YEemSTsXpfqYNLg/5 model.profile.uml#_GTWZUB8YEemSTsXpfqYNLg">
   <uml:Model xmi:id="_4iszwBQdEemZWf-PcAkycQ" name="Pokedex">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_4vggsBQdEemZWf-PcAkycQ">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -30,14 +30,26 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_roj1IBmaEemMD7Z-54k-Ug" name="at.fhv.pokedex">
       <packagedElement xmi:type="uml:Package" xmi:id="_Sl50gBmQEemmJ5q8jX4sWA" name="endpoint">
-        <packagedElement xmi:type="uml:Class" xmi:id="_HUNjcBQiEemZWf-PcAkycQ" name="APIController"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HUNjcBQiEemZWf-PcAkycQ" name="APIController">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_LpoksB8cEemrCvGA3PHQyw" name="getPokemon">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_Pckq0B8cEemrCvGA3PHQyw" name="token">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_Spf50B8cEemrCvGA3PHQyw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_ToZyEB8cEemrCvGA3PHQyw" name="getHistory"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_cRTi0BmQEemmJ5q8jX4sWA" name="controller">
         <packagedElement xmi:type="uml:Class" xmi:id="_B7OFgBQiEemZWf-PcAkycQ" name="RestController">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_hGtJwBQlEemZWf-PcAkycQ" name="restURL" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedAttribute>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_e_DgwBQlEemZWf-PcAkycQ" name="getRestURL"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_e_DgwBQlEemZWf-PcAkycQ" name="getRestURL">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_yw9a8B8bEemrCvGA3PHQyw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_vnM-wBQlEemZWf-PcAkycQ" name="setRestURL">
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_zvfCwBQlEemZWf-PcAkycQ" name="restURL">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -47,11 +59,13 @@
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_8gRi8BQlEemZWf-PcAkycQ" name="pokeName">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_2l2B0B8bEemrCvGA3PHQyw" type="_Bpq_UBQeEemZWf-PcAkycQ" direction="return"/>
           </ownedOperation>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_AZEZcBQmEemZWf-PcAkycQ" name="parseResponse" visibility="private">
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_JlP1IBQmEemZWf-PcAkycQ" name="response">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8OHR4B8bEemrCvGA3PHQyw" type="_Bpq_UBQeEemZWf-PcAkycQ" direction="return"/>
           </ownedOperation>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="__EgXEBQhEemZWf-PcAkycQ" name="PokedexController" visibility="package">
@@ -70,22 +84,25 @@
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_37BZoBQmEemZWf-PcAkycQ" name="pokemon" type="_Bpq_UBQeEemZWf-PcAkycQ"/>
           </ownedOperation>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_66y9cBQmEemZWf-PcAkycQ" name="getHistory">
-            <ownedParameter xmi:type="uml:Parameter" xmi:id="_B6hvsBQnEemZWf-PcAkycQ" name="pokeHistory" type="_9q11cBQhEemZWf-PcAkycQ"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_emFdEB8bEemrCvGA3PHQyw" type="_9q11cBQhEemZWf-PcAkycQ" direction="return"/>
           </ownedOperation>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_nDvKoBmQEemmJ5q8jX4sWA" name="model" URI="">
         <packagedElement xmi:type="uml:Class" xmi:id="_9q11cBQhEemZWf-PcAkycQ" name="History">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_v8MpQBQjEemZWf-PcAkycQ" name="pokemon" type="_Bpq_UBQeEemZWf-PcAkycQ" association="_v8BqIBQjEemZWf-PcAkycQ">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_v8MpQBQjEemZWf-PcAkycQ" name="pokemonlist" type="_Bpq_UBQeEemZWf-PcAkycQ" association="_v8BqIBQjEemZWf-PcAkycQ">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v8N3YBQjEemZWf-PcAkycQ"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v8OecBQjEemZWf-PcAkycQ" value="*"/>
           </ownedAttribute>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_OwShMBQnEemZWf-PcAkycQ" name="addPokemon">
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_l2u4UBQnEemZWf-PcAkycQ" name="pokemon" type="_Bpq_UBQeEemZWf-PcAkycQ"/>
           </ownedOperation>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_RcqA0BQnEemZWf-PcAkycQ" name="containsPokemon">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_RcqA0BQnEemZWf-PcAkycQ" name="containsPokemon" visibility="public">
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_hbeN8BQnEemZWf-PcAkycQ" name="pokeName">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_my1moB8cEemrCvGA3PHQyw" name="has">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
             </ownedParameter>
           </ownedOperation>
         </packagedElement>
@@ -158,15 +175,15 @@
         </packagedElement>
       </packagedElement>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ey_zwBmhEemRSPkd1adZHQ">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4R6UUB8WEemSTsXpfqYNLg" source="PapyrusVersion">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4R6UUR8WEemSTsXpfqYNLg" key="Version" value="0.0.5"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4R6UUh8WEemSTsXpfqYNLg" key="Comment" value=""/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4R6UUx8WEemSTsXpfqYNLg" key="Copyright" value=""/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4R6UVB8WEemSTsXpfqYNLg" key="Date" value="2019-01-23"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4R6UVR8WEemSTsXpfqYNLg" key="Author" value=""/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pa8lEB8aEemSTsXpfqYNLg" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa8lER8aEemSTsXpfqYNLg" key="Version" value="0.0.6"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa8lEh8aEemSTsXpfqYNLg" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa8lEx8aEemSTsXpfqYNLg" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa8lFB8aEemSTsXpfqYNLg" key="Date" value="2019-01-23"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa8lFR8aEemSTsXpfqYNLg" key="Author" value=""/>
         </eAnnotations>
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ezC3EBmhEemRSPkd1adZHQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-          <references xmi:type="ecore:EPackage" href="model.profile.uml#_w5fVQB8WEemSTsXpfqYNLg"/>
+          <references xmi:type="ecore:EPackage" href="model.profile.uml#_GTWZUB8YEemSTsXpfqYNLg"/>
         </eAnnotations>
         <appliedProfile xmi:type="uml:Profile" href="model.profile.uml#_7N-2YBmQEemmJ5q8jX4sWA"/>
       </profileApplication>
@@ -175,6 +192,6 @@
   <model:Model xmi:id="_n84moB8WEemSTsXpfqYNLg" base_Class="_Bpq_UBQeEemZWf-PcAkycQ"/>
   <model:Endpoint xmi:id="_p2WpsB8WEemSTsXpfqYNLg" base_Class="_HUNjcBQiEemZWf-PcAkycQ"/>
   <model:Model xmi:id="_9fcJIB8WEemSTsXpfqYNLg" base_Class="_9q11cBQhEemZWf-PcAkycQ"/>
-  <model:Controller xmi:id="_wW6-QB8XEemSTsXpfqYNLg" base_Class="__EgXEBQhEemZWf-PcAkycQ"/>
-  <model:Controller xmi:id="_ygeEsB8XEemSTsXpfqYNLg" base_Class="_B7OFgBQiEemZWf-PcAkycQ"/>
+  <model:Handler xmi:id="_wW6-QB8XEemSTsXpfqYNLg" base_Class="__EgXEBQhEemZWf-PcAkycQ"/>
+  <model:Handler xmi:id="_ygeEsB8XEemSTsXpfqYNLg" base_Class="_B7OFgBQiEemZWf-PcAkycQ"/>
 </xmi:XMI>
