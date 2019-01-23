@@ -123,10 +123,6 @@
                 <element xmi:type="uml:Operation" href="Pokedex.uml#_ewXIABQmEemZWf-PcAkycQ"/>
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_exDrkRQmEemZWf-PcAkycQ"/>
               </children>
-              <children xmi:type="notation:Shape" xmi:id="_qYBHoBQmEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
-                <element xmi:type="uml:Operation" href="Pokedex.uml#_qXoGEBQmEemZWf-PcAkycQ"/>
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_qYBHoRQmEemZWf-PcAkycQ"/>
-              </children>
               <children xmi:type="notation:Shape" xmi:id="_67e58BQmEemZWf-PcAkycQ" type="Operation_ClassOperationLabel">
                 <element xmi:type="uml:Operation" href="Pokedex.uml#_66y9cBQmEemZWf-PcAkycQ"/>
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_67e58RQmEemZWf-PcAkycQ"/>

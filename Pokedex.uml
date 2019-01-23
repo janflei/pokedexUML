@@ -35,7 +35,6 @@
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_Pckq0B8cEemrCvGA3PHQyw" name="token">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
-            <ownedParameter xmi:type="uml:Parameter" xmi:id="_Spf50B8cEemrCvGA3PHQyw" direction="return"/>
           </ownedOperation>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_ToZyEB8cEemrCvGA3PHQyw" name="getHistory"/>
         </packagedElement>
@@ -79,9 +78,7 @@
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_jkUmQBQmEemZWf-PcAkycQ" name="pokeName">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
-          </ownedOperation>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_qXoGEBQmEemZWf-PcAkycQ" name="respond" visibility="private">
-            <ownedParameter xmi:type="uml:Parameter" xmi:id="_37BZoBQmEemZWf-PcAkycQ" name="pokemon" type="_Bpq_UBQeEemZWf-PcAkycQ"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_5p3sIB8eEemrCvGA3PHQyw" type="_Bpq_UBQeEemZWf-PcAkycQ" direction="return"/>
           </ownedOperation>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_66y9cBQmEemZWf-PcAkycQ" name="getHistory">
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_emFdEB8bEemrCvGA3PHQyw" type="_9q11cBQhEemZWf-PcAkycQ" direction="return"/>
