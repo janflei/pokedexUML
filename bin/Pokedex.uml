@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:model="http:///schemas/model/_HvV1cBmiEemRSPkd1adZHQ/3" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/model/_HvV1cBmiEemRSPkd1adZHQ/3 model.profile.uml#_HvV1cRmiEemRSPkd1adZHQ">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:model="http:///schemas/model/_w5QEsB8WEemSTsXpfqYNLg/4" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/model/_w5QEsB8WEemSTsXpfqYNLg/4 model.profile.uml#_w5fVQB8WEemSTsXpfqYNLg">
   <uml:Model xmi:id="_4iszwBQdEemZWf-PcAkycQ" name="Pokedex">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_4vggsBQdEemZWf-PcAkycQ">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -28,7 +28,7 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_5DH90hmPEemmJ5q8jX4sWA" name="pokedexcontroller" type="__EgXEBQhEemZWf-PcAkycQ" association="_5DGvsBmPEemmJ5q8jX4sWA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_roj1IBmaEemMD7Z-54k-Ug" name="pokedex">
+    <packagedElement xmi:type="uml:Package" xmi:id="_roj1IBmaEemMD7Z-54k-Ug" name="at.fhv.pokedex">
       <packagedElement xmi:type="uml:Package" xmi:id="_Sl50gBmQEemmJ5q8jX4sWA" name="endpoint">
         <packagedElement xmi:type="uml:Class" xmi:id="_HUNjcBQiEemZWf-PcAkycQ" name="APIController"/>
       </packagedElement>
@@ -54,7 +54,7 @@
             </ownedParameter>
           </ownedOperation>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="__EgXEBQhEemZWf-PcAkycQ" name="PokedexController">
+        <packagedElement xmi:type="uml:Class" xmi:id="__EgXEBQhEemZWf-PcAkycQ" name="PokedexController" visibility="package">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_fKqyEBmPEemmJ5q8jX4sWA" name="history" type="_9q11cBQhEemZWf-PcAkycQ" association="_fKhBEBmPEemmJ5q8jX4sWA"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_w4sTABmPEemmJ5q8jX4sWA" name="restcontroller" type="_B7OFgBQiEemZWf-PcAkycQ" association="_w4qd0BmPEemmJ5q8jX4sWA"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_5DHWwhmPEemmJ5q8jX4sWA" name="apicontroller" type="_HUNjcBQiEemZWf-PcAkycQ" association="_5DGvsBmPEemmJ5q8jX4sWA"/>
@@ -93,20 +93,25 @@
           <ownedAttribute xmi:type="uml:Property" xmi:id="_cjgdoBQgEemZWf-PcAkycQ" name="name" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_f3v1kBQgEemZWf-PcAkycQ" name="moves" visibility="private">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BM7xQBQkEemZWf-PcAkycQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BNMP8BQkEemZWf-PcAkycQ" value="*"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_nVL3gBQgEemZWf-PcAkycQ" name="abilities" visibility="private">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5jMYsBQjEemZWf-PcAkycQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5jmBUBQjEemZWf-PcAkycQ" value="*"/>
-          </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_tE6acBQgEemZWf-PcAkycQ" name="types" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EjfdYBQkEemZWf-PcAkycQ"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EjrDkBQkEemZWf-PcAkycQ" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_QvM74B8SEemSTsXpfqYNLg" name="imageurl" visibility="private" aggregation="composite">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_hVrl8B8SEemSTsXpfqYNLg" name="baseexp" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_pZAjMB8SEemSTsXpfqYNLg" name="height" visibility="private" aggregation="composite">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_y6I7MB8SEemSTsXpfqYNLg" name="order" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_4bJssB8SEemSTsXpfqYNLg" name="weight" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedAttribute>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_1QhxABQgEemZWf-PcAkycQ" name="getName" concurrency="concurrent"/>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_VZdcUBQhEemZWf-PcAkycQ" name="setName">
@@ -114,15 +119,15 @@
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_eISNoBQhEemZWf-PcAkycQ" name="getMoves"/>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_jF4wEBQhEemZWf-PcAkycQ" name="setMoves">
-            <ownedParameter xmi:type="uml:Parameter" xmi:id="_kqG0gBQkEemZWf-PcAkycQ" name="moves">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_eISNoBQhEemZWf-PcAkycQ" name="getBaseexp"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_jF4wEBQhEemZWf-PcAkycQ" name="setBaseexp">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_kqG0gBQkEemZWf-PcAkycQ" name="baseexp">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_j9z2kBQhEemZWf-PcAkycQ" name="getAbilities"/>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_lxO8ABQhEemZWf-PcAkycQ" name="setAbilities">
-            <ownedParameter xmi:type="uml:Parameter" xmi:id="_qrZBgBQkEemZWf-PcAkycQ" name="abilities">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_j9z2kBQhEemZWf-PcAkycQ" name="getHeight"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_lxO8ABQhEemZWf-PcAkycQ" name="setHeight">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_qrZBgBQkEemZWf-PcAkycQ" name="height">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
@@ -132,26 +137,44 @@
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_Im9M8B8TEemSTsXpfqYNLg" name="getImageurl"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_Xe6fsB8TEemSTsXpfqYNLg" name="setImageurl">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_jT04MB8TEemSTsXpfqYNLg" name="imageurl">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_GLrn4B8UEemSTsXpfqYNLg" name="getOrder"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_WOSv4B8UEemSTsXpfqYNLg" name="setOrder">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_egyxkB8UEemSTsXpfqYNLg" name="order">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_i4nGYB8UEemSTsXpfqYNLg" name="getWeight"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_qhwCAB8UEemSTsXpfqYNLg" name="setWeight">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_yPYcEB8UEemSTsXpfqYNLg" name="weight">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
         </packagedElement>
       </packagedElement>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ey_zwBmhEemRSPkd1adZHQ">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KY0ZIBmiEemRSPkd1adZHQ" source="PapyrusVersion">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KY0ZIRmiEemRSPkd1adZHQ" key="Version" value="0.0.4"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KY0ZIhmiEemRSPkd1adZHQ" key="Comment" value=""/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KY0ZIxmiEemRSPkd1adZHQ" key="Copyright" value=""/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KY0ZJBmiEemRSPkd1adZHQ" key="Date" value="2019-01-16"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KY0ZJRmiEemRSPkd1adZHQ" key="Author" value=""/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4R6UUB8WEemSTsXpfqYNLg" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4R6UUR8WEemSTsXpfqYNLg" key="Version" value="0.0.5"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4R6UUh8WEemSTsXpfqYNLg" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4R6UUx8WEemSTsXpfqYNLg" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4R6UVB8WEemSTsXpfqYNLg" key="Date" value="2019-01-23"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4R6UVR8WEemSTsXpfqYNLg" key="Author" value=""/>
         </eAnnotations>
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ezC3EBmhEemRSPkd1adZHQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-          <references xmi:type="ecore:EPackage" href="model.profile.uml#_HvV1cRmiEemRSPkd1adZHQ"/>
+          <references xmi:type="ecore:EPackage" href="model.profile.uml#_w5fVQB8WEemSTsXpfqYNLg"/>
         </eAnnotations>
         <appliedProfile xmi:type="uml:Profile" href="model.profile.uml#_7N-2YBmQEemmJ5q8jX4sWA"/>
       </profileApplication>
     </packagedElement>
   </uml:Model>
-  <model:Endpoint xmi:id="_gW9g4BmhEemRSPkd1adZHQ" base_Class="_HUNjcBQiEemZWf-PcAkycQ"/>
-  <model:Handler xmi:id="_ivJgQBmhEemRSPkd1adZHQ" base_Class="__EgXEBQhEemZWf-PcAkycQ"/>
-  <model:Handler xmi:id="_j3AgMBmhEemRSPkd1adZHQ" base_Class="_B7OFgBQiEemZWf-PcAkycQ"/>
-  <model:Model xmi:id="_lV9xgBmhEemRSPkd1adZHQ" base_Class="_9q11cBQhEemZWf-PcAkycQ"/>
-  <model:Model xmi:id="_m1UrcBmhEemRSPkd1adZHQ" base_Class="_Bpq_UBQeEemZWf-PcAkycQ"/>
+  <model:Model xmi:id="_n84moB8WEemSTsXpfqYNLg" base_Class="_Bpq_UBQeEemZWf-PcAkycQ"/>
+  <model:Endpoint xmi:id="_p2WpsB8WEemSTsXpfqYNLg" base_Class="_HUNjcBQiEemZWf-PcAkycQ"/>
+  <model:Model xmi:id="_9fcJIB8WEemSTsXpfqYNLg" base_Class="_9q11cBQhEemZWf-PcAkycQ"/>
+  <model:Controller xmi:id="_wW6-QB8XEemSTsXpfqYNLg" base_Class="__EgXEBQhEemZWf-PcAkycQ"/>
+  <model:Controller xmi:id="_ygeEsB8XEemSTsXpfqYNLg" base_Class="_B7OFgBQiEemZWf-PcAkycQ"/>
 </xmi:XMI>
