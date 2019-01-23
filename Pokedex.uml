@@ -28,7 +28,7 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_5DH90hmPEemmJ5q8jX4sWA" name="pokedexcontroller" type="__EgXEBQhEemZWf-PcAkycQ" association="_5DGvsBmPEemmJ5q8jX4sWA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_roj1IBmaEemMD7Z-54k-Ug" name="pokedex">
+    <packagedElement xmi:type="uml:Package" xmi:id="_roj1IBmaEemMD7Z-54k-Ug" name="at.fhv.pokedex">
       <packagedElement xmi:type="uml:Package" xmi:id="_Sl50gBmQEemmJ5q8jX4sWA" name="endpoint">
         <packagedElement xmi:type="uml:Class" xmi:id="_HUNjcBQiEemZWf-PcAkycQ" name="APIController"/>
       </packagedElement>
