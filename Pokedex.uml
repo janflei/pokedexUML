@@ -31,10 +31,11 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_roj1IBmaEemMD7Z-54k-Ug" name="at.fhv.pokedex">
       <packagedElement xmi:type="uml:Package" xmi:id="_Sl50gBmQEemmJ5q8jX4sWA" name="endpoint">
         <packagedElement xmi:type="uml:Class" xmi:id="_HUNjcBQiEemZWf-PcAkycQ" name="APIController">
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_LpoksB8cEemrCvGA3PHQyw" name="getPokemon">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_LpoksB8cEemrCvGA3PHQyw" name="getPokemon" concurrency="concurrent">
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_Pckq0B8cEemrCvGA3PHQyw" name="token">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_TuYNECSUEemJu5_1cF8wtg" type="_Bpq_UBQeEemZWf-PcAkycQ" direction="return"/>
           </ownedOperation>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_ToZyEB8cEemrCvGA3PHQyw" name="getHistory"/>
         </packagedElement>
@@ -187,8 +188,10 @@
     </packagedElement>
   </uml:Model>
   <model:Model xmi:id="_n84moB8WEemSTsXpfqYNLg" base_Class="_Bpq_UBQeEemZWf-PcAkycQ"/>
-  <model:Endpoint xmi:id="_p2WpsB8WEemSTsXpfqYNLg" base_Class="_HUNjcBQiEemZWf-PcAkycQ"/>
   <model:Model xmi:id="_9fcJIB8WEemSTsXpfqYNLg" base_Class="_9q11cBQhEemZWf-PcAkycQ"/>
   <model:Handler xmi:id="_wW6-QB8XEemSTsXpfqYNLg" base_Class="__EgXEBQhEemZWf-PcAkycQ"/>
   <model:Handler xmi:id="_ygeEsB8XEemSTsXpfqYNLg" base_Class="_B7OFgBQiEemZWf-PcAkycQ"/>
+  <model:Endpoint xmi:id="_WCdlACSTEemJu5_1cF8wtg" base_Class="_HUNjcBQiEemZWf-PcAkycQ"/>
+  <model:Read xmi:id="_PPvCECSVEem97qkTqTUqoQ" base_Operation="_LpoksB8cEemrCvGA3PHQyw" path="/pokemon"/>
+  <model:Read xmi:id="_QD0xcCSVEem97qkTqTUqoQ" base_Operation="_ToZyEB8cEemrCvGA3PHQyw" path="/history"/>
 </xmi:XMI>
